@@ -25,16 +25,16 @@ public class Magarang {
         int choice;
         do {
             // menu
-            System.out.println("==== LOGIN SYSTEM ====");
-            System.out.println("[1] Login");
-            System.out.println("[2] Register");
-            System.out.println("[3] Exit");
-            System.out.print("Choose an option: ");
+            System.out.println("==== LOGIN ====");
+            System.out.println("1 Login");
+            System.out.println("2 Register");
+            System.out.println("3 Exit");
+            System.out.print("Choose your option: ");
             choice = scanner.nextInt();
             scanner.nextLine();
 
             switch(choice) {
-                case 1: // Login
+                case 1:
                     System.out.print("Enter username: ");
                     String loginUser = scanner.nextLine();
                     System.out.print("Enter password: ");
@@ -53,7 +53,7 @@ public class Magarang {
                     }
                     break;
 
-                case 2: // Register
+                case 2:
                     System.out.print("Enter new username: ");
                     String newUser = scanner.nextLine();
 
@@ -85,12 +85,12 @@ public class Magarang {
                     }
                     break;
 
-                case 3: // Exit
+                case 3:
                     System.out.println("Goodbye!");
                     break;
 
                 default:
-                    System.out.println("Invalid option! Try again.");
+                    System.out.println("Invalid! Try again.");
             }
 
             System.out.println();
