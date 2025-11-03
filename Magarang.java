@@ -24,8 +24,8 @@ public class Magarang {
 
         int choice;
         do {
-            // menu
-            System.out.println("==== LOGIN ====");
+            
+            System.out.println("==== LOGIN SYSTEM ====");
             System.out.println("[1] Login");
             System.out.println("[2] Register");
             System.out.println("[3] Exit");
@@ -67,7 +67,7 @@ public class Magarang {
                     }
 
                     if (baba2user) {
-                        System.out.println("Username already exists!");
+                        System.out.println("Username already exists");
                     } else {
                         System.out.print("Enter password: ");
                         String newPass = scanner.nextLine();
