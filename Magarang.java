@@ -26,10 +26,10 @@ public class Magarang {
         do {
             // menu
             System.out.println("==== LOGIN ====");
-            System.out.println("1 Login");
-            System.out.println("2 Register");
-            System.out.println("3 Exit");
-            System.out.print("Choose your option: ");
+            System.out.println("[1] Login");
+            System.out.println("[2] Register");
+            System.out.println("[3] Exit");
+            System.out.print("Choose an option: ");
             choice = scanner.nextInt();
             scanner.nextLine();
 
